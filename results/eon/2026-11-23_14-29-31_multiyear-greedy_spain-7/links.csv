@@ -1,0 +1,17 @@
+origin,destination,length,up,slots_used,utilization,max_slot,lightpaths
+Madrid,Zaragoza,272.94,TRUE,36,0.1125,36,5
+Madrid,Sevilla,390.21,TRUE,4,0.0125,20,1
+Madrid,Valencia,302.56,TRUE,12,0.0375,64,2
+Barcelona,Zaragoza,256.21,TRUE,44,0.1375,44,6
+Barcelona,Valencia,303.06,TRUE,40,0.125,80,6
+Valencia,Barcelona,303.06,TRUE,36,0.1125,44,5
+Valencia,Murcia,176.86,TRUE,80,0.25,80,11
+Valencia,Madrid,302.56,TRUE,24,0.075,24,3
+Sevilla,Malaga,157.33,TRUE,28,0.0875,28,4
+Sevilla,Madrid,390.21,TRUE,32,0.1,36,4
+Zaragoza,Madrid,272.94,TRUE,4,0.0125,20,1
+Zaragoza,Barcelona,256.21,TRUE,20,0.0625,72,4
+Malaga,Murcia,323.34,TRUE,20,0.0625,28,3
+Malaga,Sevilla,157.33,TRUE,48,0.15,56,6
+Murcia,Valencia,176.86,TRUE,32,0.1,44,5
+Murcia,Malaga,323.34,TRUE,36,0.1125,56,5

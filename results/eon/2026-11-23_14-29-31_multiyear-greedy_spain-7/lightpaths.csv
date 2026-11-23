@@ -1,0 +1,36 @@
+lightpath_id,demand_id,origin,destination,role,transponder,rate_gbps,slots,path,length_km,regenerators,starts,slot_ranges,max_segment_km,reach_km,year
+0,0,Malaga,Zaragoza,working,300G PCS 16QAM,300,8,Malaga > Sevilla > Madrid > Zaragoza,820.48,,0,0-7,820.48,4700,1
+1,1,Madrid,Barcelona,working,100G QPSK,100,4,Madrid > Zaragoza > Barcelona,529.15,,8,8-11,529.15,3000,1
+2,2,Barcelona,Malaga,working,400G PCS 16QAM,400,8,Barcelona > Valencia > Murcia > Malaga,803.26,,0,0-7,803.26,2500,1
+3,2,Barcelona,Malaga,working,400G PCS 16QAM,400,8,Barcelona > Valencia > Murcia > Malaga,803.26,,8,8-15,803.26,2500,1
+4,3,Sevilla,Zaragoza,working,600G 16QAM,600,8,Sevilla > Madrid > Zaragoza,663.15,,12,12-19,663.15,700,1
+5,4,Sevilla,Murcia,working,400G PCS 16QAM,400,8,Sevilla > Malaga > Murcia,480.67,,0,0-7,480.67,2500,1
+6,4,Sevilla,Murcia,working,400G PCS 16QAM,400,8,Sevilla > Malaga > Murcia,480.67,,8,8-15,480.67,2500,1
+7,5,Barcelona,Malaga,working,100G QPSK,100,4,Barcelona > Valencia > Murcia > Malaga,803.26,,16,16-19,803.26,3000,1
+8,6,Valencia,Murcia,working,100G QPSK,100,4,Valencia > Murcia,176.86,,20,20-23,176.86,3000,1
+9,7,Zaragoza,Malaga,working,200G 16QAM,200,4,Zaragoza > Madrid > Sevilla > Malaga,820.48,,16,16-19,820.48,900,1
+10,8,Murcia,Madrid,working,500G PCS 16QAM,500,8,Murcia > Valencia > Madrid,479.42,,0,0-7,479.42,1300,1
+11,9,Valencia,Madrid,working,400G PCS 16QAM,400,8,Valencia > Madrid,302.56,,8,8-15,302.56,2500,1
+12,10,Madrid,Valencia,working,100G QPSK,100,4,Madrid > Valencia,302.56,,0,0-3,302.56,3000,1
+13,11,Madrid,Zaragoza,working,600G 16QAM,600,8,Madrid > Zaragoza,272.94,,20,20-27,272.94,700,1
+14,12,Barcelona,Zaragoza,working,400G PCS 16QAM,400,8,Barcelona > Zaragoza,256.21,,0,0-7,256.21,2500,1
+15,13,Valencia,Murcia,working,400G PCS 16QAM,400,8,Valencia > Murcia,176.86,,24,24-31,176.86,2500,1
+16,13,Valencia,Murcia,working,400G PCS 16QAM,400,8,Valencia > Murcia,176.86,,32,32-39,176.86,2500,1
+17,14,Valencia,Zaragoza,working,600G 16QAM,600,8,Valencia > Barcelona > Zaragoza,559.27,,8,8-15,559.27,700,1
+18,15,Malaga,Zaragoza,working,400G PCS 16QAM,400,8,Malaga > Sevilla > Madrid > Zaragoza,820.48,,28,28-35,820.48,2500,1
+19,16,Malaga,Madrid,working,600G 16QAM,600,8,Malaga > Sevilla > Madrid,547.54,,20,20-27,547.54,700,1
+20,17,Sevilla,Malaga,working,300G PCS 16QAM,300,8,Sevilla > Malaga,157.33,,20,20-27,157.33,4700,1
+21,18,Valencia,Sevilla,working,400G PCS 16QAM,400,8,Valencia > Murcia > Malaga > Sevilla,657.53,,40,40-47,657.53,2500,1
+22,18,Valencia,Sevilla,working,400G PCS 16QAM,400,8,Valencia > Murcia > Malaga > Sevilla,657.53,,48,48-55,657.53,2500,1
+23,19,Madrid,Murcia,working,300G PCS 16QAM,300,8,Madrid > Valencia > Murcia,479.42,,56,56-63,479.42,4700,1
+24,20,Murcia,Zaragoza,working,300G PCS 16QAM,300,8,Murcia > Valencia > Barcelona > Zaragoza,736.13,,16,16-23,736.13,4700,1
+25,21,Zaragoza,Murcia,working,300G PCS 16QAM,300,8,Zaragoza > Barcelona > Valencia > Murcia,736.13,,64,64-71,736.13,4700,1
+26,22,Valencia,Zaragoza,working,400G PCS 16QAM,400,8,Valencia > Barcelona > Zaragoza,559.27,,24,24-31,559.27,2500,1
+27,22,Valencia,Zaragoza,working,400G PCS 16QAM,400,8,Valencia > Barcelona > Zaragoza,559.27,,32,32-39,559.27,2500,1
+28,23,Barcelona,Murcia,working,500G PCS 16QAM,500,8,Barcelona > Valencia > Murcia,479.92,,72,72-79,479.92,1300,1
+29,24,Murcia,Madrid,working,700G PCS 64QAM,700,8,Murcia > Valencia > Madrid,479.42,Valencia,8;16,8-15;16-23,302.56,400,1
+30,25,Malaga,Valencia,working,200G 16QAM,200,4,Malaga > Murcia > Valencia,500.2,,24,24-27,500.2,900,1
+31,26,Murcia,Zaragoza,working,100G QPSK,100,4,Murcia > Valencia > Barcelona > Zaragoza,736.13,,40,40-43,736.13,3000,1
+32,27,Zaragoza,Valencia,working,200G 16QAM,200,4,Zaragoza > Barcelona > Valencia,559.27,,20,20-23,559.27,900,1
+33,28,Malaga,Sevilla,working,700G PCS 64QAM,700,8,Malaga > Sevilla,157.33,,8,8-15,157.33,400,1
+34,29,Zaragoza,Barcelona,working,100G QPSK,100,4,Zaragoza > Barcelona,256.21,,0,0-3,256.21,3000,1

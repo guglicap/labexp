@@ -1,0 +1,13 @@
+# Transponder table with costs (the multi-year instances): the slide's
+# table ("Amplification and 3R regeneration") with the cost of ONE transponder = 0.5 + rate/200
+# (unit: one 100G transponder). A lightpath needs 2 transponders, a 3R regenerator is 2 more.
+rate_gbps,modulation,bits_per_symbol,spacing_ghz,reach_km,cost
+800,PCS 64QAM,5.67,100,150,4.5
+700,PCS 64QAM,5.00,100,400,4
+600,16QAM,4.00,100,700,3.5
+500,PCS 16QAM,3.60,100,1300,3
+400,PCS 16QAM,3.00,100,2500,2.5
+300,PCS 16QAM,2.39,100,4700,2
+300,64QAM,6.00,50,100,2
+200,16QAM,4.00,50,900,1.5
+100,QPSK,2.00,50,3000,1

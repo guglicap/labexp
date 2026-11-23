@@ -1,0 +1,122 @@
+lightpath_id,demand_id,origin,destination,role,transponder,rate_gbps,slots,path,length_km,regenerators,starts,slot_ranges,max_segment_km,reach_km,year
+0,0,Palermo,Rome,working,200G 16QAM,200,4,Palermo > Naples > Rome,502.46,,0,0-3,502.46,900,1
+1,1,Naples,Bari,working,200G 16QAM,200,4,Naples > Bari,220.54,,0,0-3,220.54,900,1
+2,2,Florence,Naples,working,200G 16QAM,200,4,Florence > Rome > Naples,419.34,,0,0-3,419.34,900,1
+3,3,Rome,Venice,working,700G PCS 64QAM,700,8,Rome > Florence > Bologna > Venice,441.94,Bologna,0;0,0-7;0-7,311.86,400,1
+4,4,Milan,Bologna,working,400G PCS 16QAM,400,8,Milan > Bologna,200.7,,0,0-7,200.7,2500,1
+5,4,Milan,Bologna,working,400G PCS 16QAM,400,8,Milan > Bologna,200.7,,8,8-15,200.7,2500,1
+6,5,Bari,Genoa,working,300G PCS 16QAM,300,8,Bari > Rome > Florence > Genoa,803.07,,8,8-15,803.07,4700,1
+7,6,Rome,Florence,working,700G PCS 64QAM,700,8,Rome > Florence,230.91,,16,16-23,230.91,400,1
+8,7,Palermo,Bari,working,400G PCS 16QAM,400,8,Palermo > Bari,449.14,,0,0-7,449.14,2500,1
+9,7,Palermo,Bari,working,400G PCS 16QAM,400,8,Palermo > Bari,449.14,,8,8-15,449.14,2500,1
+10,8,Naples,Turin,working,600G 16QAM,600,8,Naples > Rome > Florence > Genoa > Turin,740.81,Genoa,24;0,24-31;0-7,616.88,700,1
+11,9,Turin,Genoa,working,800G PCS 64QAM,800,8,Turin > Genoa,123.93,,0,0-7,123.93,150,1
+12,10,Genoa,Naples,working,700G PCS 64QAM,700,8,Genoa > Florence > Rome > Naples,616.88,Florence;Rome,0;4;4,0-7;4-11;4-11,230.91,400,1
+13,11,Venice,Florence,working,800G PCS 64QAM,800,8,Venice > Bologna > Florence,211.03,Bologna,0;0,0-7;0-7,130.08,150,1
+14,12,Genoa,Florence,working,300G PCS 16QAM,300,8,Genoa > Florence,197.54,,8,8-15,197.54,4700,1
+15,13,Bologna,Genoa,working,500G PCS 16QAM,500,8,Bologna > Florence > Genoa,278.49,,16,16-23,278.49,1300,1
+16,14,Turin,Venice,working,600G 16QAM,600,8,Turin > Milan > Venice,369.32,,0,0-7,369.32,700,1
+17,15,Turin,Genoa,working,200G 16QAM,200,4,Turin > Genoa,123.93,,8,8-11,123.93,900,1
+18,16,Bari,Naples,working,500G PCS 16QAM,500,8,Bari > Naples,220.54,,0,0-7,220.54,1300,1
+19,17,Bologna,Genoa,working,200G 16QAM,200,4,Bologna > Florence > Genoa,278.49,,32,32-35,278.49,900,1
+20,18,Turin,Bologna,working,200G 16QAM,200,4,Turin > Milan > Bologna,326.22,,16,16-19,326.22,900,1
+21,19,Milan,Venice,working,600G 16QAM,600,8,Milan > Venice,243.8,,8,8-15,243.8,700,1
+22,20,Bari,Rome,working,700G PCS 64QAM,700,8,Bari > Rome,374.62,,0,0-7,374.62,400,1
+23,21,Venice,Turin,working,200G 16QAM,200,4,Venice > Milan > Turin,369.32,,0,0-3,369.32,900,1
+24,22,Palermo,Bologna,working,400G PCS 16QAM,400,8,Palermo > Naples > Rome > Florence > Bologna,814.32,,32,32-39,814.32,2500,1
+25,23,Venice,Florence,working,300G PCS 16QAM,300,8,Venice > Bologna > Florence,211.03,,8,8-15,211.03,4700,1
+26,24,Palermo,Rome,working,100G QPSK,100,4,Palermo > Naples > Rome,502.46,,4,4-7,502.46,3000,1
+27,25,Genoa,Naples,working,700G PCS 64QAM,700,8,Genoa > Florence > Rome > Naples,616.88,Florence;Rome,16;12;12,16-23;12-19;12-19,230.91,400,1
+28,26,Naples,Palermo,working,700G PCS 64QAM,700,8,Naples > Palermo,314.03,,0,0-7,314.03,400,1
+29,27,Rome,Bari,working,700G PCS 64QAM,700,8,Rome > Bari,374.62,,0,0-7,374.62,400,1
+30,28,Genoa,Bologna,working,600G 16QAM,600,8,Genoa > Florence > Bologna,278.49,,24,24-31,278.49,700,1
+31,29,Florence,Venice,working,400G PCS 16QAM,400,8,Florence > Bologna > Venice,211.03,,8,8-15,211.03,2500,1
+32,30,Milan,Genoa,working,700G PCS 64QAM,700,8,Milan > Genoa,119.26,,0,0-7,119.26,400,1
+33,31,Milan,Naples,working,700G PCS 64QAM,700,8,Milan > Bologna > Florence > Rome > Naples,700.99,Florence;Rome,24;20;20,24-31;20-27;20-27,281.65,400,1
+34,32,Bari,Florence,working,400G PCS 16QAM,400,8,Bari > Rome > Florence,605.53,,40,40-47,605.53,2500,1
+35,33,Bari,Genoa,working,300G PCS 16QAM,300,8,Bari > Rome > Florence > Genoa,803.07,,48,48-55,803.07,4700,1
+36,34,Milan,Florence,working,500G PCS 16QAM,500,8,Milan > Bologna > Florence,281.65,,36,36-43,281.65,1300,1
+37,35,Turin,Bologna,working,300G PCS 16QAM,300,8,Turin > Milan > Bologna,326.22,,44,44-51,326.22,4700,1
+38,36,Rome,Genoa,working,400G PCS 16QAM,400,8,Rome > Florence > Genoa,428.45,,56,56-63,428.45,2500,1
+39,37,Rome,Bari,working,600G 16QAM,600,8,Rome > Bari,374.62,,8,8-15,374.62,700,1
+40,38,Florence,Genoa,working,400G PCS 16QAM,400,8,Florence > Genoa,197.54,,0,0-7,197.54,2500,1
+41,39,Milan,Florence,working,300G PCS 16QAM,300,8,Milan > Bologna > Florence,281.65,,52,52-59,281.65,4700,1
+42,40,Bologna,Turin,working,300G PCS 16QAM,300,8,Bologna > Milan > Turin,326.22,,4,4-11,326.22,4700,1
+43,41,Naples,Rome,working,100G QPSK,100,4,Naples > Rome,188.43,,8,8-11,188.43,3000,1
+44,42,Palermo,Rome,working,300G PCS 16QAM,300,8,Palermo > Naples > Rome,502.46,,12,12-19,502.46,4700,1
+45,43,Bari,Turin,working,400G PCS 16QAM,400,8,Bari > Rome > Florence > Genoa > Turin,927,,64,64-71,927,2500,1
+46,44,Palermo,Venice,working,100G QPSK,100,4,Palermo > Naples > Rome > Florence > Bologna > Venice,944.4,,72,72-75,944.4,3000,1
+47,45,Palermo,Naples,working,700G PCS 64QAM,700,8,Palermo > Naples,314.03,,20,20-27,314.03,400,1
+48,46,Naples,Milan,working,600G 16QAM,600,8,Naples > Rome > Florence > Bologna > Milan,700.99,Bologna,76;12,76-83;12-19,500.29,700,1
+49,47,Florence,Genoa,working,400G PCS 16QAM,400,8,Florence > Genoa,197.54,,36,36-43,197.54,2500,1
+50,48,Naples,Palermo,working,500G PCS 16QAM,500,8,Naples > Palermo,314.03,,8,8-15,314.03,1300,1
+51,49,Bologna,Milan,working,100G QPSK,100,4,Bologna > Milan,200.7,,0,0-3,200.7,3000,1
+52,50,Naples,Venice,working,400G PCS 16QAM,400,8,Naples > Rome > Florence > Bologna > Venice,630.37,,84,84-91,630.37,2500,1
+53,50,Naples,Venice,working,400G PCS 16QAM,400,8,Naples > Rome > Florence > Bologna > Venice,630.37,,92,92-99,630.37,2500,1
+54,51,Genoa,Bari,working,400G PCS 16QAM,400,8,Genoa > Florence > Rome > Bari,803.07,,32,32-39,803.07,2500,1
+55,52,Turin,Venice,working,700G PCS 64QAM,700,8,Turin > Milan > Venice,369.32,,20,20-27,369.32,400,1
+56,53,Turin,Venice,working,300G PCS 16QAM,300,8,Turin > Milan > Venice,369.32,,28,28-35,369.32,4700,1
+57,54,Venice,Genoa,working,700G PCS 64QAM,700,8,Venice > Milan > Genoa,363.06,,8,8-15,363.06,400,1
+58,55,Bologna,Naples,working,100G QPSK,100,4,Bologna > Florence > Rome > Naples,500.29,,44,44-47,500.29,3000,1
+59,56,Genoa,Bari,working,300G PCS 16QAM,300,8,Genoa > Florence > Rome > Bari,803.07,,48,48-55,803.07,4700,1
+60,57,Turin,Palermo,working,200G 16QAM,200,4,Turin > Genoa > Florence > Rome > Naples > Palermo,1054.84,Naples,40;16,40-43;16-19,740.81,900,1
+61,58,Venice,Florence,working,800G PCS 64QAM,800,8,Venice > Bologna > Florence,211.03,Bologna,16;60,16-23;60-67,130.08,150,1
+62,59,Turin,Genoa,working,400G PCS 16QAM,400,8,Turin > Genoa,123.93,,12,12-19,123.93,2500,1
+63,60,Milan,Rome,working,400G PCS 16QAM,400,8,Milan > Bologna > Florence > Rome,512.56,,68,68-75,512.56,2500,1
+64,60,Milan,Rome,working,400G PCS 16QAM,400,8,Milan > Bologna > Florence > Rome,512.56,,76,76-83,512.56,2500,1
+65,61,Palermo,Bari,working,400G PCS 16QAM,400,8,Palermo > Bari,449.14,,16,16-23,449.14,2500,1
+66,62,Venice,Genoa,working,400G PCS 16QAM,400,8,Venice > Milan > Genoa,363.06,,16,16-23,363.06,2500,1
+67,63,Naples,Turin,working,700G PCS 64QAM,700,8,Naples > Rome > Florence > Genoa > Turin,740.81,Rome;Florence,40;100;72,40-47;100-107;72-79,321.47,400,1
+68,64,Florence,Bari,working,400G PCS 16QAM,400,8,Florence > Rome > Bari,605.53,,56,56-63,605.53,2500,1
+69,65,Rome,Naples,working,600G 16QAM,600,8,Rome > Naples,188.43,,28,28-35,188.43,700,1
+70,66,Naples,Bologna,working,700G PCS 64QAM,700,8,Naples > Rome > Florence > Bologna,500.29,Rome,48;108,48-55;108-115,311.86,400,1
+71,67,Palermo,Bologna,working,400G PCS 16QAM,400,8,Palermo > Naples > Rome > Florence > Bologna,814.32,,116,116-123,814.32,2500,1
+72,67,Palermo,Bologna,working,400G PCS 16QAM,400,8,Palermo > Naples > Rome > Florence > Bologna,814.32,,124,124-131,814.32,2500,1
+73,68,Bologna,Florence,working,200G 16QAM,200,4,Bologna > Florence,80.95,,48,48-51,80.95,900,1
+74,69,Genoa,Naples,working,400G PCS 16QAM,400,8,Genoa > Florence > Rome > Naples,616.88,,84,84-91,616.88,2500,1
+75,69,Genoa,Naples,working,400G PCS 16QAM,400,8,Genoa > Florence > Rome > Naples,616.88,,92,92-99,616.88,2500,1
+76,70,Bologna,Florence,working,300G 64QAM,300,4,Bologna > Florence,80.95,,84,84-87,80.95,100,1
+77,71,Rome,Palermo,working,700G PCS 64QAM,700,8,Rome > Naples > Palermo,502.46,Naples,48;20,48-55;20-27,314.03,400,1
+78,72,Bologna,Palermo,working,700G PCS 64QAM,700,8,Bologna > Florence > Rome > Naples > Palermo,814.32,Rome;Naples,100;56;28,100-107;56-63;28-35,314.03,400,1
+79,73,Venice,Naples,working,100G QPSK,100,4,Venice > Bologna > Florence > Rome > Naples,630.37,,108,108-111,630.37,3000,1
+80,74,Milan,Naples,working,400G PCS 16QAM,400,8,Milan > Bologna > Florence > Rome > Naples,700.99,,112,112-119,700.99,2500,1
+81,75,Genoa,Palermo,working,100G QPSK,100,4,Genoa > Florence > Rome > Naples > Palermo,930.91,,64,64-67,930.91,3000,1
+82,76,Naples,Turin,working,700G PCS 64QAM,700,8,Naples > Rome > Florence > Genoa > Turin,740.81,Rome;Florence,56;132;80,56-63;132-139;80-87,321.47,400,1
+83,77,Palermo,Turin,working,200G 16QAM,200,4,Palermo > Naples > Rome > Florence > Genoa > Turin,1054.84,Florence,140;44,140-143;44-47,733.37,900,1
+84,78,Venice,Palermo,working,100G QPSK,100,4,Venice > Bologna > Florence > Rome > Naples > Palermo,944.4,,120,120-123,944.4,3000,1
+85,79,Genoa,Venice,working,100G QPSK,100,4,Genoa > Milan > Venice,363.06,,16,16-19,363.06,3000,1
+86,80,Rome,Milan,working,100G QPSK,100,4,Rome > Florence > Bologna > Milan,512.56,,144,144-147,512.56,3000,1
+87,81,Palermo,Bari,working,200G 16QAM,200,4,Palermo > Bari,449.14,,24,24-27,449.14,900,1
+88,82,Bari,Genoa,working,500G PCS 16QAM,500,8,Bari > Rome > Florence > Genoa,803.07,,148,148-155,803.07,1300,1
+89,83,Venice,Turin,working,400G PCS 16QAM,400,8,Venice > Milan > Turin,369.32,,24,24-31,369.32,2500,1
+90,84,Venice,Rome,working,300G PCS 16QAM,300,8,Venice > Bologna > Florence > Rome,441.94,,124,124-131,441.94,4700,1
+91,85,Palermo,Genoa,working,400G PCS 16QAM,400,8,Palermo > Naples > Rome > Florence > Genoa,930.91,,156,156-163,930.91,2500,1
+92,86,Rome,Bologna,working,700G PCS 64QAM,700,8,Rome > Florence > Bologna,311.86,,164,164-171,311.86,400,1
+93,87,Bologna,Milan,working,100G QPSK,100,4,Bologna > Milan,200.7,,20,20-23,200.7,3000,1
+94,88,Florence,Palermo,working,600G 16QAM,600,8,Florence > Rome > Naples > Palermo,733.37,Naples,132;36,132-139;36-43,419.34,700,1
+95,89,Rome,Venice,working,400G PCS 16QAM,400,8,Rome > Florence > Bologna > Venice,441.94,,172,172-179,441.94,2500,1
+96,89,Rome,Venice,working,400G PCS 16QAM,400,8,Rome > Florence > Bologna > Venice,441.94,,180,180-187,441.94,2500,1
+97,90,Florence,Turin,working,400G PCS 16QAM,400,8,Florence > Genoa > Turin,321.47,,88,88-95,321.47,2500,1
+98,91,Genoa,Venice,working,500G PCS 16QAM,500,8,Genoa > Milan > Venice,363.06,,36,36-43,363.06,1300,1
+99,92,Venice,Genoa,working,600G 16QAM,600,8,Venice > Milan > Genoa,363.06,,32,32-39,363.06,700,1
+100,93,Bologna,Genoa,working,600G 16QAM,600,8,Bologna > Florence > Genoa,278.49,,132,132-139,278.49,700,1
+101,94,Bologna,Milan,working,300G PCS 16QAM,300,8,Bologna > Milan,200.7,,24,24-31,200.7,4700,1
+102,95,Palermo,Turin,working,200G 16QAM,200,4,Palermo > Naples > Rome > Florence > Genoa > Turin,1054.84,Florence,188;96,188-191;96-99,733.37,900,1
+103,96,Bari,Venice,working,400G PCS 16QAM,400,8,Bari > Venice,605.74,,0,0-7,605.74,2500,1
+104,96,Bari,Venice,working,400G PCS 16QAM,400,8,Bari > Venice,605.74,,8,8-15,605.74,2500,1
+105,97,Florence,Venice,working,200G 16QAM,200,4,Florence > Bologna > Venice,211.03,,16,16-19,211.03,900,1
+106,98,Genoa,Florence,working,300G PCS 16QAM,300,8,Genoa > Florence,197.54,,56,56-63,197.54,4700,1
+107,99,Turin,Rome,working,300G PCS 16QAM,300,8,Turin > Genoa > Florence > Rome,552.38,,140,140-147,552.38,4700,1
+108,100,Palermo,Genoa,working,700G PCS 64QAM,700,8,Palermo > Naples > Rome > Florence > Genoa,930.91,Naples;Rome;Florence,40;64;192;100,40-47;64-71;192-199;100-107,314.03,400,1
+109,101,Genoa,Naples,working,300G PCS 16QAM,300,8,Genoa > Florence > Rome > Naples,616.88,,148,148-155,616.88,4700,1
+110,102,Rome,Naples,working,400G PCS 16QAM,400,8,Rome > Naples,188.43,,68,68-75,188.43,2500,1
+111,103,Palermo,Venice,working,700G PCS 64QAM,700,8,Palermo > Naples > Rome > Florence > Bologna > Venice,944.4,Naples;Rome;Bologna,48;100;200;20,48-55;100-107;200-207;20-27,314.03,400,1
+112,104,Venice,Bari,working,400G PCS 16QAM,400,8,Venice > Bari,605.74,,0,0-7,605.74,2500,1
+113,105,Bologna,Bari,working,500G PCS 16QAM,500,8,Bologna > Florence > Rome > Bari,686.48,,156,156-163,686.48,1300,1
+114,106,Genoa,Turin,working,200G 16QAM,200,4,Genoa > Turin,123.93,,8,8-11,123.93,900,1
+115,107,Venice,Turin,working,500G PCS 16QAM,500,8,Venice > Milan > Turin,369.32,,40,40-47,369.32,1300,1
+116,108,Venice,Turin,working,400G PCS 16QAM,400,8,Venice > Milan > Turin,369.32,,48,48-55,369.32,2500,1
+117,108,Venice,Turin,working,400G PCS 16QAM,400,8,Venice > Milan > Turin,369.32,,56,56-63,369.32,2500,1
+118,109,Turin,Bologna,working,700G PCS 64QAM,700,8,Turin > Milan > Bologna,326.22,,60,60-67,326.22,400,1
+119,110,Turin,Bologna,working,500G PCS 16QAM,500,8,Turin > Milan > Bologna,326.22,,84,84-91,326.22,1300,1
+120,111,Turin,Palermo,working,500G PCS 16QAM,500,8,Turin > Genoa > Florence > Rome > Naples > Palermo,1054.84,,164,164-171,1054.84,1300,1

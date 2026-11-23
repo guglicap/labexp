@@ -1,0 +1,27 @@
+Status:      BLOCKING   (Valid solution, but some traffic could not be routed (blocked).)
+Message:     Score 51200 Gb/s·years. 38 of 150 demands are not served.
+
+Algorithm:   multi-year greedy (3R, budget per year)   [multiyear_greedy.py, formulations]   (3R allowed)
+Parameters:  k=3; choose=slots
+Date:        2026-11-23 14:30:01
+
+Topology:    Italy-10  (10 nodes, 30 links, 30 up)
+Spectrum:    320 slots of 12.5 GHz per link
+Transponders: transponders.csv
+Traffic:     150 demands, 67800 Gb/s offered
+Years:       1, budget of every year 300 (what is not spent stays available)
+Score:       51200 Gb/s·years (every Gb/s counts once in each year in which it is in service)
+
+Served:      112 demands (51200 Gb/s);  blocked 38 (25.3 %, 16600 Gb/s)
+             blocking reasons: spectrum 0, reach 0, no disjoint path 0, other 38; unreachable (no path) 0
+Hardware:    121 lightpaths + 0 backup -> 300 transponders (3R included: 2 each), 29 × 3R;  hardware cost 300
+Spectrum:    total slots used 2008 (slots × links), highest slot in use 207 (slots 0..319), utilization mean 20.9% / max 65.0%
+Paths:       mean working path 469 km
+Fibre cuts:  demands down: mean 17.4 per cut, worst 47 (cut Florence-Rome, 22100 Gb/s)
+Time:        0.0828 s
+
+The network at the end of every year (a lightpath stays from its year on):
+  year  arrived  new in  in service   Gb/s in  Gb/s asked   budget    spent  money left  slots used  fullest link
+     1      150     112         112     51200       67800      300    300.0         0.0        2008           65%
+
+Validation: reach, contiguity, continuity, non-overlap, years and budgets all satisfied.

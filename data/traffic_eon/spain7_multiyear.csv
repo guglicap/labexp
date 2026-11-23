@@ -1,0 +1,27 @@
+# Spain-7, small multi-year instance: 20 demands (year 1: 8, year 2: 6, year 3: 6), Gb/s.
+# Small enough for an ILP of the whole problem: the optimum is 15000 Gb/s-years.
+# budgets: 35, 45, 55
+# slots per link: 24
+# transponders: transponders_cost.csv
+# spectrum unit: slots
+id,year,origin,destination,traffic
+0,1,Barcelona,Malaga,200
+1,1,Malaga,Valencia,100
+2,1,Valencia,Zaragoza,400
+3,1,Malaga,Barcelona,100
+4,1,Barcelona,Sevilla,400
+5,1,Sevilla,Barcelona,100
+6,1,Zaragoza,Sevilla,400
+7,1,Valencia,Malaga,400
+8,2,Malaga,Murcia,600
+9,2,Murcia,Valencia,300
+10,2,Barcelona,Valencia,600
+11,2,Zaragoza,Murcia,600
+12,2,Malaga,Valencia,800
+13,2,Barcelona,Sevilla,600
+14,3,Madrid,Zaragoza,400
+15,3,Barcelona,Malaga,1000
+16,3,Zaragoza,Sevilla,1000
+17,3,Zaragoza,Sevilla,800
+18,3,Sevilla,Murcia,800
+19,3,Murcia,Valencia,800

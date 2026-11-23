@@ -1,0 +1,14 @@
+# What the project needs:  pip install -r requirements.txt     (Python 3.10 to 3.14)
+networkx>=3.0
+matplotlib>=3.5
+numpy
+scipy
+# PuLP for integer linear programs, with the free solvers CBC and HiGHS
+pulp[cbc,highs]>=3.3.2
+# the genetic-algorithm libraries of examples/
+pymoo>=0.6
+deap>=1.4
+pygad>=3.3
+
+# Tkinter (the toolkit of the window) comes with the Python installers of python.org on
+# Windows and macOS. On Debian/Ubuntu Linux:  sudo apt install python3-tk

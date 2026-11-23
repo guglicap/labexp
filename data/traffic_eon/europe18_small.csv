@@ -1,0 +1,37 @@
+# Europe-18, multi-year instance small: 30 demands (year 1: 12, year 2: 10, year 3: 8), Gb/s.
+# year = the year in which the demand arrives. Run a multi-year algorithm (multiyear_greedy, my_ga_planner, my_ilp_planner).
+# budgets: 40, 55, 70
+# slots per link: 32
+# transponders: transponders_cost.csv
+# spectrum unit: slots
+id,year,origin,destination,traffic
+0,1,Zurich,Frankfurt,400
+1,1,Rome,Barcelona,500
+2,1,Brussels,Rome,100
+3,1,Madrid,Barcelona,200
+4,1,London,Paris,300
+5,1,Barcelona,Amsterdam,500
+6,1,Frankfurt,London,400
+7,1,Amsterdam,Frankfurt,200
+8,1,Amsterdam,Paris,600
+9,1,Frankfurt,Berlin,200
+10,1,Frankfurt,Prague,300
+11,1,Barcelona,Paris,600
+12,2,Zurich,Berlin,400
+13,2,Brussels,Frankfurt,800
+14,2,Paris,Lyon,600
+15,2,London,Frankfurt,500
+16,2,London,Berlin,200
+17,2,Frankfurt,London,400
+18,2,Vienna,Barcelona,600
+19,2,Frankfurt,Munich,500
+20,2,Frankfurt,Hamburg,400
+21,2,London,Brussels,300
+22,3,Paris,Warsaw,1200
+23,3,Brussels,Paris,800
+24,3,Hamburg,Warsaw,600
+25,3,Madrid,London,300
+26,3,Paris,Zurich,600
+27,3,Madrid,Warsaw,400
+28,3,Frankfurt,Munich,1200
+29,3,Zurich,Vienna,1000

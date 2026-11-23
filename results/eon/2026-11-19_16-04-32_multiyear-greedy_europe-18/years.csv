@@ -1,0 +1,4 @@
+year,arrived,new_in_service,in_service,gbps_in_service,gbps_asked,budget,spent,money_left,lightpaths,slots_used,fullest_link
+1,100,46,46,13300,29600,300,299,1,46,660,0.6
+2,80,57,103,40000,66200,450,450,1,111,1716,0.95
+3,80,51,154,72100,118800,600,599,2,181,3092,1

@@ -1,0 +1,11 @@
+# transponder table used by run 20261119-171441-multiyear_greedy
+rate_gbps,modulation,bits_per_symbol,spacing_ghz,reach_km,cost
+800,PCS 64QAM,5.67,100,150,4.5
+700,PCS 64QAM,5,100,400,4
+600,16QAM,4,100,700,3.5
+500,PCS 16QAM,3.6,100,1300,3
+400,PCS 16QAM,3,100,2500,2.5
+300,PCS 16QAM,2.39,100,4700,2
+300,64QAM,6,50,100,2
+200,16QAM,4,50,900,1.5
+100,QPSK,2,50,3000,1

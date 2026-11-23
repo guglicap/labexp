@@ -1,0 +1,261 @@
+demand_id,origin,destination,rate_gbps,state,reason,lightpaths,carried_as,path,km,backup_carried_as,backup_path,backup_km,regenerators,slots_used,year,in_service_year
+0,Paris,Madrid,100,SERVED,,1,100G QPSK,Paris > Madrid,1270,,,,0,4,1,1
+1,Frankfurt,London,400,SERVED,,1,400G PCS 16QAM,Frankfurt > Brussels > London,800,,,,0,16,1,1
+2,Hamburg,Warsaw,400,SERVED,,1,400G PCS 16QAM,Hamburg > Berlin > Warsaw,970,,,,0,16,1,1
+3,Barcelona,Paris,200,SERVED,,1,200G 16QAM,Barcelona > Lyon > Paris,1140,,,,1,8,1,1
+4,Vienna,Frankfurt,400,SERVED,,1,400G PCS 16QAM,Vienna > Munich > Frankfurt,830,,,,0,16,1,1
+5,Lyon,Brussels,100,SERVED,,1,100G QPSK,Lyon > Paris > Brussels,830,,,,0,8,1,1
+6,Amsterdam,Milan,100,SERVED,,1,100G QPSK,Amsterdam > Frankfurt > Zurich > Milan,1140,,,,0,12,1,1
+7,Vienna,Madrid,600,SERVED,,1,600G 16QAM,Vienna > Munich > Zurich > Lyon > Barcelona > Madrid,2440,,,,4,40,1,1
+8,Zurich,Barcelona,300,SERVED,,1,300G PCS 16QAM,Zurich > Lyon > Barcelona,1070,,,,0,16,1,1
+9,Frankfurt,Zurich,400,SERVED,,1,400G PCS 16QAM,Frankfurt > Zurich,400,,,,0,8,1,1
+10,Barcelona,Warsaw,400,SERVED,,1,400G PCS 16QAM,Barcelona > Lyon > Zurich > Munich > Vienna > Warsaw,2520,,,,1,40,1,1
+11,Hamburg,Brussels,200,SERVED,,1,200G 16QAM,Hamburg > Amsterdam > Brussels,680,,,,0,8,1,1
+12,Amsterdam,Frankfurt,100,SERVED,,1,100G QPSK,Amsterdam > Frankfurt,450,,,,0,4,1,1
+13,Frankfurt,Milan,200,SERVED,,1,200G 16QAM,Frankfurt > Zurich > Milan,690,,,,0,8,1,1
+14,Berlin,Frankfurt,200,SERVED,,1,200G 16QAM,Berlin > Frankfurt,550,,,,0,4,1,1
+15,London,Brussels,400,SERVED,,1,400G PCS 16QAM,London > Brussels,400,,,,0,8,1,1
+16,Berlin,Barcelona,600,SERVED,,1,600G 16QAM,Berlin > Frankfurt > Zurich > Lyon > Barcelona,2020,,,,3,32,1,1
+17,Brussels,London,200,SERVED,,1,200G 16QAM,Brussels > London,400,,,,0,4,1,1
+18,Munich,Madrid,200,SERVED,,1,200G 16QAM,Munich > Zurich > Lyon > Barcelona > Madrid,2000,,,,2,16,1,1
+19,Amsterdam,Milan,200,SERVED,,1,200G 16QAM,Amsterdam > Frankfurt > Zurich > Milan,1140,,,,1,12,1,1
+20,Brussels,Copenhagen,600,SERVED,,1,600G 16QAM,Brussels > Amsterdam > Hamburg > Copenhagen,1040,,,,1,24,1,1
+21,Barcelona,Amsterdam,500,SERVED,,1,500G PCS 16QAM,Barcelona > Lyon > Paris > Brussels > Amsterdam,1685,,,,1,32,1,1
+22,Zurich,Paris,200,SERVED,,1,200G 16QAM,Zurich > Lyon > Paris,930,,,,1,8,1,1
+23,Prague,Lyon,200,SERVED,,1,200G 16QAM,Prague > Munich > Zurich > Lyon,1120,,,,1,12,1,1
+24,Munich,Paris,300,SERVED,,1,300G PCS 16QAM,Munich > Frankfurt > Paris,990,,,,0,16,1,1
+25,Vienna,Berlin,200,SERVED,,1,200G 16QAM,Vienna > Prague > Berlin,680,,,,0,8,1,1
+26,Amsterdam,Vienna,200,SERVED,,1,200G 16QAM,Amsterdam > Frankfurt > Munich > Vienna,1280,,,,1,12,1,1
+27,Amsterdam,Madrid,400,SERVED,,1,400G PCS 16QAM,Amsterdam > Brussels > Paris > Madrid,1815,,,,0,24,1,1
+28,Amsterdam,Hamburg,100,SERVED,,1,100G QPSK,Amsterdam > Hamburg,465,,,,0,4,1,1
+29,Brussels,Barcelona,400,SERVED,,1,400G PCS 16QAM,Brussels > Paris > Lyon > Barcelona,1470,,,,0,24,1,1
+30,Frankfurt,Amsterdam,300,SERVED,,1,300G PCS 16QAM,Frankfurt > Amsterdam,450,,,,0,8,1,1
+31,Paris,Warsaw,300,SERVED,,1,300G PCS 16QAM,Paris > Frankfurt > Berlin > Warsaw,1800,,,,0,24,1,1
+32,Milan,Madrid,600,SERVED,,1,600G 16QAM,Milan > Lyon > Barcelona > Madrid,1710,,,,2,24,1,1
+33,Zurich,Berlin,300,SERVED,,1,300G PCS 16QAM,Zurich > Frankfurt > Berlin,950,,,,0,16,1,1
+34,Copenhagen,London,200,SERVED,,1,200G 16QAM,Copenhagen > Hamburg > Amsterdam > London,1285,,,,1,12,1,1
+35,Frankfurt,Amsterdam,200,SERVED,,1,200G 16QAM,Frankfurt > Amsterdam,450,,,,0,4,1,1
+36,Frankfurt,Paris,100,SERVED,,1,100G QPSK,Frankfurt > Paris,600,,,,0,4,1,1
+37,Munich,Berlin,400,SERVED,,1,400G PCS 16QAM,Munich > Prague > Berlin,730,,,,0,16,1,1
+38,Berlin,Brussels,400,SERVED,,1,400G PCS 16QAM,Berlin > Frankfurt > Brussels,950,,,,0,16,1,1
+39,Barcelona,Brussels,100,SERVED,,1,100G QPSK,Barcelona > Lyon > Paris > Brussels,1470,,,,0,12,1,1
+40,Frankfurt,Lyon,400,SERVED,,1,400G PCS 16QAM,Frankfurt > Zurich > Lyon,830,,,,0,16,1,1
+41,Frankfurt,Hamburg,200,SERVED,,1,200G 16QAM,Frankfurt > Hamburg,500,,,,0,4,1,1
+42,London,Prague,100,SERVED,,1,100G QPSK,London > Brussels > Frankfurt > Prague,1320,,,,0,12,1,1
+43,Warsaw,Milan,500,SERVED,,1,500G PCS 16QAM,Warsaw > Vienna > Munich > Milan,1620,,,,1,24,1,1
+44,London,Zurich,200,SERVED,,1,200G 16QAM,London > Brussels > Frankfurt > Zurich,1200,,,,1,12,1,1
+45,Milan,Madrid,200,SERVED,,1,200G 16QAM,Milan > Lyon > Barcelona > Madrid,1710,,,,2,12,1,1
+46,Amsterdam,Madrid,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+47,Berlin,Brussels,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+48,Rome,Milan,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+49,Vienna,Paris,600,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+50,Zurich,Berlin,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+51,Prague,Lyon,100,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+52,London,Amsterdam,100,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+53,Amsterdam,Frankfurt,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+54,Lyon,Madrid,100,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+55,London,Prague,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+56,London,Brussels,500,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+57,Frankfurt,Amsterdam,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+58,Munich,Warsaw,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+59,Vienna,Brussels,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+60,Vienna,Madrid,100,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+61,Prague,Frankfurt,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+62,Barcelona,London,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+63,Lyon,Berlin,400,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+64,Frankfurt,Vienna,400,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+65,Brussels,Prague,600,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+66,Munich,Prague,400,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+67,Paris,Berlin,400,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+68,Zurich,Amsterdam,100,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+69,Rome,Frankfurt,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+70,London,Milan,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+71,Madrid,Frankfurt,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+72,Zurich,Munich,600,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+73,Lyon,Amsterdam,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+74,Hamburg,Brussels,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+75,Paris,Hamburg,400,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+76,Amsterdam,Frankfurt,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+77,London,Madrid,100,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+78,Frankfurt,Warsaw,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+79,Frankfurt,Zurich,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+80,Lyon,Berlin,600,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+81,Hamburg,Zurich,500,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+82,Amsterdam,Vienna,500,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+83,Paris,Amsterdam,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+84,Lyon,Frankfurt,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+85,Frankfurt,Paris,500,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+86,Frankfurt,Warsaw,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+87,Milan,Amsterdam,600,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+88,Rome,London,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+89,Brussels,Frankfurt,500,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+90,Lyon,Paris,400,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+91,Madrid,Amsterdam,400,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+92,Hamburg,Copenhagen,400,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+93,Zurich,London,400,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+94,Berlin,London,100,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+95,Hamburg,Munich,100,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+96,Warsaw,Paris,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+97,Paris,Brussels,200,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+98,Hamburg,Vienna,300,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+99,Amsterdam,Copenhagen,100,BLOCKED,budget or spectrum in year 1,0,,,,,,,0,0,1,
+100,Vienna,Milan,400,SERVED,,1,400G PCS 16QAM,Vienna > Munich > Milan,920,,,,0,16,2,2
+101,Munich,Lyon,300,SERVED,,1,300G PCS 16QAM,Munich > Zurich > Lyon,740,,,,0,16,2,2
+102,Amsterdam,London,600,SERVED,,1,600G 16QAM,Amsterdam > London,460,,,,0,8,2,2
+103,Paris,Hamburg,600,SERVED,,1,600G 16QAM,Paris > Brussels > Amsterdam > Hamburg,1010,,,,1,24,2,2
+104,Barcelona,Paris,300,SERVED,,1,300G PCS 16QAM,Barcelona > Lyon > Paris,1140,,,,0,16,2,2
+105,Paris,Vienna,400,SERVED,,1,400G PCS 16QAM,Paris > Frankfurt > Munich > Vienna,1430,,,,0,24,2,2
+106,Rome,Copenhagen,600,SERVED,,1,600G 16QAM,Rome > Milan > Zurich > Frankfurt > Hamburg > Copenhagen,2150,,,,3,40,2,2
+107,Berlin,Lyon,400,SERVED,,1,400G PCS 16QAM,Berlin > Frankfurt > Zurich > Lyon,1380,,,,0,24,2,2
+108,Amsterdam,London,400,SERVED,,1,400G PCS 16QAM,Amsterdam > London,460,,,,0,8,2,2
+109,Hamburg,Madrid,600,SERVED,,2,2 × 300G PCS 16QAM,Hamburg > Amsterdam > Brussels > Paris > Madrid,2280,,,,0,64,2,2
+110,London,Frankfurt,400,SERVED,,1,400G PCS 16QAM,London > Brussels > Frankfurt,800,,,,0,16,2,2
+111,London,Hamburg,800,SERVED,,2,2 × 400G PCS 16QAM,London > Amsterdam > Hamburg,925,,,,0,32,2,2
+112,Paris,Amsterdam,600,SERVED,,1,600G 16QAM,Paris > Brussels > Amsterdam,545,,,,0,16,2,2
+113,Brussels,Hamburg,400,SERVED,,1,400G PCS 16QAM,Brussels > Amsterdam > Hamburg,680,,,,0,16,2,2
+114,Hamburg,Paris,400,SERVED,,1,400G PCS 16QAM,Hamburg > Amsterdam > Brussels > Paris,1010,,,,0,24,2,2
+115,Warsaw,London,500,SERVED,,1,500G PCS 16QAM,Warsaw > Berlin > Hamburg > Amsterdam > London,1895,,,,1,32,2,2
+116,Prague,Hamburg,500,SERVED,,1,500G PCS 16QAM,Prague > Berlin > Hamburg,670,,,,0,16,2,2
+117,Madrid,Berlin,200,SERVED,,1,300G PCS 16QAM,Madrid > Paris > Frankfurt > Berlin,2420,,,,0,24,2,2
+118,Paris,Rome,300,SERVED,,1,300G PCS 16QAM,Paris > Lyon > Milan > Rome,1550,,,,0,24,2,2
+119,Amsterdam,Milan,600,SERVED,,1,600G 16QAM,Amsterdam > Frankfurt > Zurich > Milan,1140,,,,1,24,2,2
+120,Milan,Munich,200,SERVED,,1,200G 16QAM,Milan > Munich,480,,,,0,4,2,2
+121,Madrid,Berlin,600,SERVED,,2,2 × 300G PCS 16QAM,Madrid > Paris > Frankfurt > Berlin,2420,,,,0,48,2,2
+122,Warsaw,Frankfurt,600,SERVED,,1,600G 16QAM,Warsaw > Berlin > Frankfurt,1200,,,,1,16,2,2
+123,Zurich,Munich,300,SERVED,,1,300G PCS 16QAM,Zurich > Munich,310,,,,0,8,2,2
+124,Milan,Warsaw,600,SERVED,,1,600G 16QAM,Milan > Munich > Vienna > Warsaw,1620,,,,2,24,2,2
+125,Lyon,Frankfurt,200,SERVED,,1,200G 16QAM,Lyon > Zurich > Frankfurt,830,,,,0,8,2,2
+126,Amsterdam,Prague,400,SERVED,,1,400G PCS 16QAM,Amsterdam > Frankfurt > Prague,970,,,,0,16,2,2
+127,Frankfurt,Vienna,200,SERVED,,1,200G 16QAM,Frankfurt > Munich > Vienna,830,,,,0,8,2,2
+128,Frankfurt,London,600,SERVED,,1,600G 16QAM,Frankfurt > Brussels > London,800,,,,1,16,2,2
+129,Zurich,Prague,500,SERVED,,1,500G PCS 16QAM,Zurich > Munich > Prague,690,,,,0,16,2,2
+130,Frankfurt,Hamburg,400,SERVED,,1,400G PCS 16QAM,Frankfurt > Hamburg,500,,,,0,8,2,2
+131,Paris,Madrid,800,SERVED,,2,2 × 400G PCS 16QAM,Paris > Madrid,1270,,,,0,16,2,2
+132,Amsterdam,Zurich,800,SERVED,,2,2 × 400G PCS 16QAM,Amsterdam > Frankfurt > Zurich,850,,,,0,32,2,2
+133,Rome,Milan,400,SERVED,,1,400G PCS 16QAM,Rome > Milan,600,,,,0,8,2,2
+134,Lyon,Brussels,200,SERVED,,1,200G 16QAM,Lyon > Paris > Brussels,830,,,,0,8,2,2
+135,Rome,London,200,SERVED,,1,200G 16QAM,Rome > Milan > Lyon > Paris > London,2000,,,,3,16,2,2
+136,Rome,Lyon,500,SERVED,,1,500G PCS 16QAM,Rome > Milan > Lyon,1050,,,,0,16,2,2
+137,London,Barcelona,600,SERVED,,1,600G 16QAM,London > Paris > Lyon > Barcelona,1590,,,,2,24,2,2
+138,Brussels,Frankfurt,600,SERVED,,1,600G 16QAM,Brussels > Frankfurt,400,,,,0,8,2,2
+139,Madrid,Warsaw,800,SERVED,,2,2 × 400G PCS 16QAM,Madrid > Paris > Frankfurt > Berlin > Warsaw,3070,,,,2,64,2,2
+140,Brussels,Amsterdam,300,SERVED,,1,300G PCS 16QAM,Brussels > Amsterdam,215,,,,0,8,2,2
+141,Amsterdam,Hamburg,400,SERVED,,1,400G PCS 16QAM,Amsterdam > Hamburg,465,,,,0,8,2,2
+142,Berlin,Brussels,600,SERVED,,1,600G 16QAM,Berlin > Frankfurt > Brussels,950,,,,1,16,2,2
+143,Amsterdam,Frankfurt,200,SERVED,,1,200G 16QAM,Amsterdam > Frankfurt,450,,,,0,4,2,2
+144,Amsterdam,Berlin,400,SERVED,,1,400G PCS 16QAM,Amsterdam > Hamburg > Berlin,785,,,,0,16,2,2
+145,Munich,Milan,800,SERVED,,2,2 × 400G PCS 16QAM,Munich > Milan,480,,,,0,16,2,2
+146,Paris,Madrid,200,SERVED,,1,300G PCS 16QAM,Paris > Madrid,1270,,,,0,8,2,2
+147,Frankfurt,Amsterdam,400,SERVED,,1,400G PCS 16QAM,Frankfurt > Amsterdam,450,,,,0,8,2,2
+148,Zurich,Madrid,800,SERVED,,2,2 × 400G PCS 16QAM,Zurich > Lyon > Barcelona > Madrid,1690,,,,0,48,2,2
+149,Berlin,Amsterdam,400,SERVED,,1,400G PCS 16QAM,Berlin > Hamburg > Amsterdam,785,,,,0,16,2,2
+150,Amsterdam,Barcelona,400,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+151,Warsaw,Berlin,500,SERVED,,1,500G PCS 16QAM,Warsaw > Berlin,650,,,,0,8,2,2
+152,Frankfurt,Prague,300,SERVED,,1,300G PCS 16QAM,Frankfurt > Prague,520,,,,0,8,2,2
+153,London,Brussels,600,SERVED,,1,600G 16QAM,London > Brussels,400,,,,0,8,2,2
+154,Brussels,Amsterdam,600,SERVED,,1,600G 16QAM,Brussels > Amsterdam,215,,,,0,8,2,2
+155,Munich,Amsterdam,600,SERVED,,1,600G 16QAM,Munich > Frankfurt > Amsterdam,840,,,,1,16,2,2
+156,Frankfurt,Amsterdam,400,SERVED,,1,400G PCS 16QAM,Frankfurt > Amsterdam,450,,,,0,8,2,2
+157,Amsterdam,Lyon,400,SERVED,,1,400G PCS 16QAM,Amsterdam > Brussels > Paris > Lyon,1045,,,,0,24,2,2
+158,Milan,London,600,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+159,Berlin,Munich,400,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+160,Rome,Madrid,200,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+161,Warsaw,Barcelona,800,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+162,Frankfurt,Amsterdam,400,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+163,London,Amsterdam,200,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+164,Frankfurt,Amsterdam,300,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+165,Paris,Amsterdam,200,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+166,Brussels,Warsaw,400,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+167,Paris,Milan,800,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+168,Paris,London,200,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+169,Zurich,Berlin,800,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+170,Milan,Warsaw,200,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+171,Prague,Amsterdam,400,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+172,Warsaw,Berlin,400,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+173,Warsaw,Lyon,500,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+174,Frankfurt,Berlin,300,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+175,Barcelona,London,400,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+176,Zurich,Warsaw,600,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+177,Frankfurt,Zurich,200,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+178,London,Amsterdam,600,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+179,Frankfurt,Madrid,600,BLOCKED,budget or spectrum in year 2,0,,,,,,,0,0,2,
+180,London,Frankfurt,300,SERVED,,1,300G PCS 16QAM,London > Brussels > Frankfurt,800,,,,0,16,3,3
+181,Warsaw,Prague,1200,SERVED,,2,2 × 600G 16QAM,Warsaw > Berlin > Prague,1000,,,,2,32,3,3
+182,Milan,Prague,300,SERVED,,1,300G PCS 16QAM,Milan > Munich > Prague,860,,,,0,16,3,3
+183,Munich,Rome,500,SERVED,,1,500G PCS 16QAM,Munich > Milan > Rome,1080,,,,0,16,3,3
+184,London,Paris,800,SERVED,,2,2 × 400G PCS 16QAM,London > Paris,450,,,,0,16,3,3
+185,Hamburg,London,300,SERVED,,1,300G PCS 16QAM,Hamburg > Amsterdam > London,925,,,,0,16,3,3
+186,Berlin,Paris,500,SERVED,,1,500G PCS 16QAM,Berlin > Frankfurt > Paris,1150,,,,0,16,3,3
+187,Paris,Rome,800,SERVED,,2,2 × 400G PCS 16QAM,Paris > Lyon > Milan > Rome,1550,,,,0,48,3,3
+188,Paris,Amsterdam,800,SERVED,,2,2 × 400G PCS 16QAM,Paris > Brussels > Amsterdam,545,,,,0,32,3,3
+189,Vienna,Paris,800,SERVED,,2,2 × 400G PCS 16QAM,Vienna > Munich > Frankfurt > Paris,1430,,,,0,48,3,3
+190,Madrid,Warsaw,1000,SERVED,,2,2 × 500G PCS 16QAM,Madrid > Paris > Frankfurt > Berlin > Warsaw,3070,,,,4,64,3,3
+191,Warsaw,Munich,800,SERVED,,2,2 × 400G PCS 16QAM,Warsaw > Vienna > Munich,1140,,,,0,32,3,3
+192,Frankfurt,Lyon,800,SERVED,,2,2 × 400G PCS 16QAM,Frankfurt > Paris > Lyon,1100,,,,0,32,3,3
+193,Berlin,Brussels,800,SERVED,,2,2 × 400G PCS 16QAM,Berlin > Frankfurt > Brussels,950,,,,0,32,3,3
+194,Hamburg,Munich,400,SERVED,,1,400G PCS 16QAM,Hamburg > Frankfurt > Munich,890,,,,0,16,3,3
+195,Berlin,Frankfurt,1200,SERVED,,2,2 × 600G 16QAM,Berlin > Hamburg > Frankfurt,820,,,,2,32,3,3
+196,Rome,Paris,1000,SERVED,,2,2 × 500G PCS 16QAM,Rome > Milan > Lyon > Paris,1550,,,,2,48,3,3
+197,Paris,Brussels,600,SERVED,,1,600G 16QAM,Paris > Brussels,330,,,,0,8,3,3
+198,Paris,Hamburg,400,SERVED,,1,400G PCS 16QAM,Paris > Brussels > Amsterdam > Hamburg,1010,,,,0,24,3,3
+199,Milan,Berlin,600,SERVED,,1,600G 16QAM,Milan > Munich > Prague > Berlin,1210,,,,2,24,3,3
+200,Rome,London,600,SERVED,,1,600G 16QAM,Rome > Milan > Lyon > Paris > London,2000,,,,3,32,3,3
+201,London,Paris,500,SERVED,,1,500G PCS 16QAM,London > Paris,450,,,,0,8,3,3
+202,Frankfurt,Rome,600,SERVED,,1,600G 16QAM,Frankfurt > Munich > Milan > Rome,1470,,,,2,24,3,3
+203,Amsterdam,Vienna,400,SERVED,,1,400G PCS 16QAM,Amsterdam > Frankfurt > Munich > Vienna,1280,,,,0,24,3,3
+204,Munich,Paris,800,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+205,Frankfurt,London,500,SERVED,,1,500G PCS 16QAM,Frankfurt > Brussels > London,800,,,,0,16,3,3
+206,London,Frankfurt,500,SERVED,,1,500G PCS 16QAM,London > Brussels > Frankfurt,800,,,,0,16,3,3
+207,Madrid,Amsterdam,400,SERVED,,1,400G PCS 16QAM,Madrid > Paris > London > Amsterdam,2180,,,,0,24,3,3
+208,Frankfurt,Munich,600,SERVED,,1,600G 16QAM,Frankfurt > Munich,390,,,,0,8,3,3
+209,Madrid,Frankfurt,1000,SERVED,,2,2 × 500G PCS 16QAM,Madrid > Barcelona > Lyon > Zurich > Frankfurt,2090,,,,2,64,3,3
+210,Brussels,London,300,SERVED,,1,300G PCS 16QAM,Brussels > London,400,,,,0,8,3,3
+211,Frankfurt,Milan,500,SERVED,,1,500G PCS 16QAM,Frankfurt > Munich > Milan,870,,,,0,16,3,3
+212,London,Warsaw,400,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+213,Madrid,Amsterdam,300,SERVED,,1,300G PCS 16QAM,Madrid > Paris > London > Amsterdam,2180,,,,0,24,3,3
+214,Barcelona,Warsaw,400,SERVED,,1,400G PCS 16QAM,Barcelona > Lyon > Zurich > Munich > Vienna > Warsaw,2520,,,,1,40,3,3
+215,Milan,Berlin,500,SERVED,,1,500G PCS 16QAM,Milan > Munich > Prague > Berlin,1210,,,,0,24,3,3
+216,Frankfurt,Zurich,300,SERVED,,1,300G PCS 16QAM,Frankfurt > Munich > Zurich,700,,,,0,16,3,3
+217,Amsterdam,Madrid,800,SERVED,,2,2 × 400G PCS 16QAM,Amsterdam > Brussels > Paris > Madrid,1815,,,,0,48,3,3
+218,Frankfurt,Paris,400,SERVED,,1,400G PCS 16QAM,Frankfurt > Paris,600,,,,0,8,3,3
+219,Barcelona,Milan,1200,SERVED,,2,2 × 600G 16QAM,Barcelona > Lyon > Milan,1090,,,,2,32,3,3
+220,Amsterdam,Barcelona,1000,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+221,Copenhagen,Madrid,1000,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+222,Milan,London,600,SERVED,,1,600G 16QAM,Milan > Lyon > Paris > London,1400,,,,2,24,3,3
+223,Copenhagen,Prague,800,SERVED,,2,2 × 400G PCS 16QAM,Copenhagen > Berlin > Prague,800,,,,0,32,3,3
+224,Barcelona,Warsaw,1200,SERVED,,3,3 × 400G PCS 16QAM,Barcelona > Rome > Vienna > Warsaw,2700,,,,3,72,3,3
+225,Warsaw,London,600,SERVED,,1,600G 16QAM,Warsaw > Berlin > Hamburg > Amsterdam > London,1895,,,,3,32,3,3
+226,Prague,Hamburg,500,SERVED,,1,500G PCS 16QAM,Prague > Berlin > Hamburg,670,,,,0,16,3,3
+227,Vienna,Zurich,1200,SERVED,,2,2 × 600G 16QAM,Vienna > Prague > Munich > Zurich,1020,,,,2,48,3,3
+228,Paris,Frankfurt,400,SERVED,,1,400G PCS 16QAM,Paris > Frankfurt,600,,,,0,8,3,3
+229,Rome,London,800,SERVED,,2,2 × 400G PCS 16QAM,Rome > Milan > Zurich > Frankfurt > Brussels > London,2090,,,,0,80,3,3
+230,Frankfurt,Milan,1000,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+231,Brussels,Paris,600,SERVED,,1,600G 16QAM,Brussels > Paris,330,,,,0,8,3,3
+232,Paris,Milan,800,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+233,Paris,Munich,1000,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+234,Milan,Barcelona,400,SERVED,,1,400G PCS 16QAM,Milan > Rome > Barcelona,1500,,,,0,16,3,3
+235,Berlin,Paris,300,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+236,London,Amsterdam,400,SERVED,,1,400G PCS 16QAM,London > Amsterdam,460,,,,0,8,3,3
+237,Amsterdam,Lyon,800,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+238,Frankfurt,London,500,SERVED,,1,500G PCS 16QAM,Frankfurt > Amsterdam > London,910,,,,0,16,3,3
+239,Frankfurt,Zurich,400,SERVED,,1,400G PCS 16QAM,Frankfurt > Munich > Zurich,700,,,,0,16,3,3
+240,Lyon,Copenhagen,400,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+241,Rome,Madrid,400,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+242,Rome,Warsaw,500,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+243,Copenhagen,Amsterdam,1200,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+244,Madrid,Barcelona,500,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+245,Warsaw,Barcelona,300,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+246,Brussels,Frankfurt,1000,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+247,London,Prague,500,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+248,Madrid,Paris,500,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+249,Warsaw,Paris,600,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+250,Paris,Frankfurt,400,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+251,Hamburg,Milan,1200,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+252,Amsterdam,London,1000,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+253,London,Hamburg,800,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+254,Frankfurt,Milan,1200,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+255,London,Frankfurt,600,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+256,Berlin,Munich,500,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+257,Amsterdam,Paris,400,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+258,Prague,Paris,600,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
+259,Paris,Zurich,800,BLOCKED,budget or spectrum in year 3,0,,,,,,,0,0,3,
